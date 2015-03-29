@@ -11,7 +11,7 @@ This theme started as a Frakenstein mash-up of `base16-eighties-theme` and `sola
 
 ### Install & Usage ###
 
-Download `apropospriate-theme.el` somewhere and add its directory to `custom-theme-load-path`.
+Download the directory somewhere and add it both `load-path` and `custom-theme-load-path`.
 
 <!-- You can always download and add it to your load path manually, but the easiest way to install is through [MELPA](http://melpa.org) via `package.el`: -->
 
@@ -19,22 +19,12 @@ Download `apropospriate-theme.el` somewhere and add its directory to `custom-the
 <!-- M-x package-install apropospriate-theme -->
 <!-- ``` -->
 
-Once installed, load with `M-x load-theme` or put this in your config:
+Once installed, load either theme with `M-x load-theme` or in your config:
 
 ``` elisp
-(load-theme 'apropospriate t)
-```
-
-Apropospriate comes in two flavors, light and dark. The default is dark but you can set the default to light with:
-
-``` elisp
-(setq apropospriate-theme-variant 'light)
-```
-
-There's also a built-in function to toggle between the two themes:
-
-``` 
-M-x apropospriate-theme-toggle-variant
+(load-theme 'apropospriate-dark t)
+;; or
+(load-theme 'apropospriate-light t)
 ```
 
 ### Supported Packages ###
