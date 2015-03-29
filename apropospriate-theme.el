@@ -40,6 +40,7 @@
                  (const :tag "Light" light)))
 
 (defun apropospriate-light? ()
+  "Check if the current theme variant is `light'."
   (eq apropospriate-theme-variant 'light))
 
 (let* ((class '((class color) (min-colors 89)))
@@ -178,11 +179,13 @@
             (guide-key/key-face :foreground ,pink)
             (guide-key/prefix-command-face :foreground ,cyan)
 
-            (tabbar-default :inherit default :box (:line-width 4 :color ,base00 :style nil) :foreground ,base02 :background "black")
+            (tabbar-default :inherit default :foreground ,base02 :background "black"
+                            :box (:line-width 4 :color ,base00 :style nil))
             (tabbar-button :height 0.8 :box (:line-width 4 :color ,base00-2 :style nil))
             (tabbar-unselected :inherit tabbar-button :background ,base00-2)
             (tabbar-modified :inherit tabbar-unselected)
-            (tabbar-selected :inherit tabbar-button :box (:line-width 4 :color ,base00 :style nil))
+            (tabbar-selected :inherit tabbar-button
+                             :box (:line-width 4 :color ,base00 :style nil))
             (tabbar-separator :inherit tabbar-selected)
 
             (company-tooltip :background ,base00-1 :foreground ,base02)
@@ -516,6 +519,6 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; eval: (when (require 'rainbow-mode nil t) (rainbow-mode 1))
-;; fill-column: 95
+;; fill-column: 105
 ;; End:
 ;;; apropospriate-theme.el ends here
