@@ -6,20 +6,25 @@ This theme started as a Frakenstein mash-up of `base16-eighties-theme` and `sola
 
 ### Screenshots ###
 
+##### `apropospriate-dark-theme` #####
+
 ![](https://raw.github.com/waymondo/apropospriate-theme/master/dark.png)
+
+##### `apropospriate-light-theme` #####
+
 ![](https://raw.github.com/waymondo/apropospriate-theme/master/light.png)
 
 ### Install & Usage ###
 
-Download the directory somewhere and add it both `load-path` and `custom-theme-load-path`.
+The recommended and easiest way to install is through [MELPA](http://melpa.org) via `package.el`:
 
-<!-- You can always download and add it to your load path manually, but the easiest way to install is through [MELPA](http://melpa.org) via `package.el`: -->
+```
+M-x package-install apropospriate-theme
+```
 
-<!-- ``` -->
-<!-- M-x package-install apropospriate-theme -->
-<!-- ``` -->
+Or you can always manually download the directory somewhere and add it both `load-path` and `custom-theme-load-path`.
 
-Once installed, load either theme with `M-x load-theme` or in your config:
+Once installed, load either theme variant with `M-x load-theme` or in your config:
 
 ``` elisp
 (load-theme 'apropospriate-dark t)
