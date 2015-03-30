@@ -41,7 +41,7 @@
          (orange   (if (eq variant 'light) "#D84315" "#FFCC80"))
          (orange-1 (if (eq variant 'light) "#FF5722" "#FFA726"))
          (red      (if (eq variant 'light) "#D50000" "#E57373"))
-         (red-1    (if (eq variant 'light) "#FF1744" "#D32F2F"))
+         (red-1    (if (eq variant 'light) "#FF1744" "#EF9A9A"))
          (pink     (if (eq variant 'light) "#F8BBD0" "#F8BBD0"))
          (pink-1   (if (eq variant 'light) "#EC407A" "#FF80AB"))
          (purple   (if (eq variant 'light) "#7E57C2" "#E1BEE7"))
