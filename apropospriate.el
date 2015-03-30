@@ -97,7 +97,7 @@
               (header-line :foreground ,purple :background nil)
               (auto-dim-other-buffers-face :background ,base00+1)
               (fringe :background ,base00+1 :foreground ,base02)
-              (linum :inherit fringe)
+              (linum :inherit fringe :foreground ,base01)
               (vertical-border :foreground ,base00+3)
               (widget-button :underline t)
               (widget-field :background ,base02 :box (:line-width 1 :color ,base03))
