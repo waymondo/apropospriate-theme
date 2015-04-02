@@ -41,13 +41,15 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Powerline
 * Rainbow Delimiters
 * Highlight Tail Mode
+* Flycheck
 * Auto Dim Other Buffers
-* Ace Jump Mode (and related extensions)
+* Ace Jump Mode, Ace Jump Window, Ace Jump Buffer
 * Swoop & Helm Swoop
 * Highlight Symbol Mode
-* Git Gutter and Diff Hl Modes
+* Git Gutter & Diff Hl Modes
 * Pulse
 * Popup & Pos Tip
-* Evil's cursors
+* Evil
 * Tabbar
 * Org Mode
+* Guide Key

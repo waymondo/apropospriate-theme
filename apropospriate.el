@@ -332,7 +332,13 @@
               (magit-log-author :foreground ,base02)
               (magit-log-date :foreground ,base02)
               (magit-log-graph :foreground ,base02)
+              (magit-log-head-label-head :box nil :background ,base00+1 :foreground ,green-1)
+              (magit-log-head-label-remote :box nil :background ,base00+1 :foreground ,green-1)
+              (magit-log-head-label-local :box nil :background ,base00+1 :foreground ,green-1)
+              (magit-log-head-label-tags :box nil :background ,base00+1 :foreground ,green-1)
+              (magit-log-head-label-patches :box nil :background ,base00+1 :foreground ,green-1)
               (magit-hash :foreground ,cyan)
+              (magit-branch :background ,base00+1 :foreground ,green-1)
               (magit-branch-local :foreground ,green-1)
               (magit-branch-remote :foreground ,green-1)
               (magit-branch-label :foreground ,green-1)
@@ -359,6 +365,7 @@
               (magit-diff-lines-heading :background unspecified)
               (magit-popup-argument :foreground ,base02)
               (magit-popup-disabled-argument :foreground ,base01)
+              (magit-item-highlight :background ,highlight-line-color)
 
               (ediff-current-diff-A :foreground ,base03 :background ,red-1)
               (ediff-current-diff-Ancestor :foreground ,base03 :background ,red-1)
@@ -479,9 +486,9 @@
      `(tabbar-background-color ,base00-2)
 
      `(ansi-color-names-vector
-       [,base00 ,red ,green ,yellow ,blue ,purple ,blue ,base03])
+       [,base00 ,red ,green ,yellow ,blue ,purple ,cyan ,base03])
      `(ansi-term-color-vector
-       [unspecified ,base00 ,red ,green ,yellow ,blue ,purple ,blue ,base03]))))
+       [unspecified ,base00 ,red ,green ,yellow ,blue ,purple ,cyan ,base03]))))
 
 ;;;###autoload
 (and load-file-name
