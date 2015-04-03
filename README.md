@@ -27,9 +27,20 @@ Or you can always manually download the directory somewhere and add it both `loa
 Once installed, load either theme variant with `M-x load-theme` or in your config:
 
 ``` elisp
+(require 'apropospriate)
 (load-theme 'apropospriate-dark t)
 ;; or
 (load-theme 'apropospriate-light t)
+```
+
+[`use-package`](https://github.com/jwiegley/use-package) style:
+
+``` elisp
+(use-package apropospriate
+  :config (load-theme 'apropospriate-dark t))
+;; or
+(use-package apropospriate
+  :config (load-theme 'apropospriate-light t))
 ```
 
 ### Supported Packages ###
