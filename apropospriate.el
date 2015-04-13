@@ -181,7 +181,7 @@
               (company-tooltip-search :foreground ,yellow)
               (company-echo-common :inherit company-tooltip :foreground ,yellow)
               (company-scrollbar-bg :background ,base00+1)
-              (company-scrollbar-fg :background ,base01)
+              (company-scrollbar-fg :background ,base00+3)
               (company-tooltip-annotation :inherit company-tooltip :foreground ,base01)
               (company-preview :background ,base00 :foreground ,base02)
               (company-preview-common :foreground ,base02)
@@ -366,6 +366,7 @@
               (magit-popup-argument :foreground ,base02)
               (magit-popup-disabled-argument :foreground ,base01)
               (magit-item-highlight :background ,highlight-line-color)
+              (git-commit-summary :foreground ,base03)
 
               (ediff-current-diff-A :foreground ,base03 :background ,red-1)
               (ediff-current-diff-Ancestor :foreground ,base03 :background ,red-1)
