@@ -487,9 +487,9 @@
      `(tabbar-background-color ,base00-2)
 
      `(ansi-color-names-vector
-       [,base00 ,red ,green ,yellow ,blue ,purple ,cyan ,base03])
+       [,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03])
      `(ansi-term-color-vector
-       [unspecified ,base00 ,red ,green ,yellow ,blue ,purple ,cyan ,base03]))))
+       [unspecified ,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03]))))
 
 ;;;###autoload
 (and load-file-name
