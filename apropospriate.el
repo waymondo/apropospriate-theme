@@ -472,7 +472,7 @@
                                  ,orange))
 
      `(highlight-tail-colors
-       (if (eq variant 'light)
+       (if (eq ',variant 'light)
            '((,orange-1 . 0)
              (,yellow . 10)
              (,yellow-1 . 30)
