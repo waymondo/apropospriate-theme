@@ -249,11 +249,13 @@
               (helm-ls-git-renamed-modified-face :foreground ,orange-1)
               (helm-ls-git-untracked-face :foreground ,blue)
 
-              (show-paren-match :underline (:style line :color ,pink))
+              (show-paren-match :background unspecified :underline (:style line :color ,pink))
               (show-paren-mismatch :background unspecified :foreground ,red :inverse-video t
                                    :underline (:style line :color ,red))
               (highlight-symbol-face :foreground unspecified :background unspecified
                                      :underline (:style line :color ,base02))
+              (sp-show-pair-match-face :inherit show-paren-match)
+              (sp-show-pair-mismatch-face :inherit show-paren-mismatch)
 
               (rainbow-delimiters-depth-1-face :foreground ,purple-1)
               (rainbow-delimiters-depth-2-face :foreground ,indigo-1)
