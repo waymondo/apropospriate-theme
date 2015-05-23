@@ -492,7 +492,10 @@
      `(ansi-color-names-vector
        [,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03])
      `(ansi-term-color-vector
-       [unspecified ,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03]))))
+       [unspecified ,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03])))
+
+  (when (and highlight-tail-mode (fboundp 'highlight-tail-reload))
+    (highlight-tail-reload)))
 
 ;;;###autoload
 (and load-file-name
