@@ -494,7 +494,8 @@
      `(ansi-term-color-vector
        [unspecified ,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03])))
 
-  (when (and highlight-tail-mode (fboundp 'highlight-tail-reload))
+  (when  (fboundp 'highlight-tail-mode)
+    (highlight-tail-mode)
     (highlight-tail-reload)))
 
 ;;;###autoload
