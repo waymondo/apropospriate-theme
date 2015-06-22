@@ -297,7 +297,7 @@
 
               (diff-hl-insert :foreground ,green :background ,base00+1)
               (diff-hl-unknown :foreground ,orange-1 :background ,base00+1)
-              (diff-hl-delete :foreground ,red-1 :backgound ,base00+1)
+              (diff-hl-delete :foreground ,red-1 :background ,base00+1)
               (diff-hl-change :foreground ,blue-1 :background ,base00+1)
 
               (eldoc-highlight-function-argument :foreground ,green :weight bold)
