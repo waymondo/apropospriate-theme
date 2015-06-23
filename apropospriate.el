@@ -74,7 +74,9 @@
          (base00+3 (if (eq variant 'light)
                        (color-darken-name base00 10)
                      (color-lighten-name base00 10)))
-         (mode-line-box-color (if (eq variant 'light) base00+3 base00-3))
+         (light-emphasis (if (eq variant 'light) base00+3 base00-3))
+         (light-emphasis-1 (if (eq variant 'light) base00+2 base00-2))
+         (light-emphasis-2 (if (eq variant 'light) base00+1 base00-1))
          (highlight-line-color (if (eq variant 'light) base00-1 base00+1)))
 
     (apply 'custom-theme-set-faces theme-name
@@ -128,7 +130,7 @@
               (font-lock-variable-name-face :foreground ,teal)
               (font-lock-warning-face :foreground ,red)
 
-              (mode-line :box (:line-width 4 :color ,mode-line-box-color :style nil)
+              (mode-line :box (:line-width 4 :color ,light-emphasis :style nil)
                          :height 0.9 :background ,base00-2 :foreground ,base03)
               (mode-line-inactive :box (:line-width 4 :color ,base00+1 :style nil)
                                   :height 0.9 :background ,base00+1 :foreground ,base02)
@@ -155,6 +157,10 @@
               (regex-tool-matched-face :foreground nil :background nil :inherit match)
               (ag-match-face :inherit isearch-lazy-highlight-face)
               (custom-state :foreground ,green)
+
+              (visible-mark-active :foreground unspecified :background ,light-emphasis)
+              (visible-mark-face1 :background ,light-emphasis-1)
+              (visible-mark-face2 :background ,light-emphasis-2)
 
               (wgrep-face :background ,base00+2)
               (wgrep-file-face :background ,base00+1)

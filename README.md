@@ -64,3 +64,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Tabbar
 * Org Mode
 * Guide Key
+* Visible Mark
