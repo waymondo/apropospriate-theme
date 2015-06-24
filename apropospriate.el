@@ -162,6 +162,10 @@
               (visible-mark-face1 :background ,light-emphasis-1)
               (visible-mark-face2 :background ,light-emphasis-2)
 
+              (ivy-confirm-face :foregroud ,green)
+              (ivy-match-required-face :foregroud ,red)
+              (ivy-remote :foregroud ,cyan)
+
               (wgrep-face :background ,base00+2)
               (wgrep-file-face :background ,base00+1)
               (wgrep-delete-face :foreground ,red)
