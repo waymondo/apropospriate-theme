@@ -51,6 +51,7 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Magit (as well as the `next` branch for the upcoming 2.0 release)
 * Powerline
 * Rainbow Delimiters
+* Highlight Blocks Mode
 * Highlight Tail Mode
 * Flycheck
 * Auto Dim Other Buffers

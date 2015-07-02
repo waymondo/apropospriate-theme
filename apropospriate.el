@@ -282,6 +282,16 @@
               (rainbow-delimiters-mismatched-face :foreground ,red)
               (rainbow-delimiters-unmatched-face :foreground ,red)
 
+              (highlight-blocks-depth-1-face :background ,base00-1)
+              (highlight-blocks-depth-2-face :background ,base00-2)
+              (highlight-blocks-depth-3-face :background ,base00-3)
+              (highlight-blocks-depth-4-face :background ,base00-3)
+              (highlight-blocks-depth-5-face :background ,base00-3)
+              (highlight-blocks-depth-6-face :background ,base00-3)
+              (highlight-blocks-depth-7-face :background ,base00-3)
+              (highlight-blocks-depth-8-face :background ,base00-3)
+              (highlight-blocks-depth-9-face :background ,base00-3)
+
               (ido-subdir :foreground ,brown :weight bold)
               (ido-first-match :foreground ,orange :weight bold)
               (ido-only-match :inherit ido-first-match)
