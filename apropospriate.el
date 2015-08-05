@@ -173,8 +173,11 @@
               (wgrep-done-face :foreground ,green)
 
               (guide-key/highlight-command-face :foreground ,yellow)
-              (guide-key/key-face :foreground ,pink)
+              (guide-key/key-face :foreground ,pink-1)
               (guide-key/prefix-command-face :foreground ,cyan)
+
+              (which-key-key-face :foreground ,pink-1)
+              (which-key-special-key-face :inherit which-key-key-face :inverse-video nil)
 
               (tabbar-default :inherit default :foreground ,base02 :background "black"
                               :box (:line-width 4 :color ,base00 :style nil))
