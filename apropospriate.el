@@ -103,7 +103,7 @@
               (vertical-border :foreground ,base00+3)
               (widget-button :underline t)
               (widget-field :background ,base02 :box (:line-width 1 :color ,base03))
-              (error :foreground ,red)
+              (error :foreground ,red :weight bold)
               (warning :foreground ,orange :weight bold)
               (success :foreground ,green :weight bold)
               (ace-jump-face-background :foreground ,base00+3)
