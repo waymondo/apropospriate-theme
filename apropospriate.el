@@ -454,9 +454,9 @@
               (markdown-url-face :inherit link)
               (markdown-link-face :foreground ,blue :underline t)
 
-              (js2-warning :underline ,orange)
+              (js2-warning :inherit flycheck-warning)
               (js2-error :foreground nil :underline ,red)
-              (js2-external-variable :foreground ,yellow-1)
+              (js2-external-variable :foreground ,orange)
               (js2-function-param :foreground ,indigo)
               (js2-instance-member :foreground ,blue)
               (js2-private-function-call :foreground ,pink)
