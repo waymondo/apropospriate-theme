@@ -162,6 +162,7 @@
               (visible-mark-face1 :background ,light-emphasis-1)
               (visible-mark-face2 :background ,light-emphasis-2)
 
+              (ivy-current-match :foreground unspecified :background ,light-emphasis-1)
               (ivy-confirm-face :foregroud ,green)
               (ivy-match-required-face :foregroud ,red)
               (ivy-remote :foregroud ,cyan)
