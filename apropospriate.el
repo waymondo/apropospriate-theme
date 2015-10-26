@@ -167,6 +167,11 @@
               (ivy-match-required-face :foregroud ,red)
               (ivy-remote :foregroud ,cyan)
 
+              (swiper-minibuffer-match-face-1 :background ,light-emphasis-1)
+              (swiper-minibuffer-match-face-2 :inherit match)
+              (swiper-minibuffer-match-face-3 :background ,cyan)
+              (swiper-minibuffer-match-face-4 :background ,pink-1)
+
               (wgrep-face :background ,base00+2)
               (wgrep-file-face :background ,base00+1)
               (wgrep-delete-face :foreground ,red)
