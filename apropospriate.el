@@ -490,7 +490,19 @@
               (erb-comment-delim-face :background ,base00+1 :foreground ,base01)
 
               (pulse-highlight-face :background ,pink)
-              (pulse-highlight-start-face :background ,pink))))
+              (pulse-highlight-start-face :background ,pink)
+
+              (eshell-prompt :foreground ,green :weight bold)
+              (eshell-ls-archive :foreground ,teal :weight bold)
+              (eshell-ls-backup :inherit font-lock-comment-face)
+              (eshell-ls-clutter :inherit font-lock-comment-face)
+              (eshell-ls-directory :foreground ,blue :weight bold)
+              (eshell-ls-executable :foreground ,red :weight bold)
+              (eshell-ls-unreadable :inherit font-lock-comment-face)
+              (eshell-ls-missing :inherit font-lock-warning-face)
+              (eshell-ls-product :inherit font-lock-doc-face)
+              (eshell-ls-special :foreground ,orange :weight bold)
+              (eshell-ls-symlink :foreground ,purple :weight bold))))
 
     (custom-theme-set-variables theme-name
 
