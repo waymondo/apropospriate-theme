@@ -399,6 +399,7 @@
               (magit-popup-disabled-argument :foreground ,base01)
               (magit-item-highlight :background ,highlight-line-color)
               (git-commit-summary :foreground ,base03)
+              (git-timemachine-minibuffer-detail-face :foreground ,orange)
 
               (ediff-current-diff-A :foreground ,base03 :background ,red-1)
               (ediff-current-diff-Ancestor :foreground ,base03 :background ,red-1)
