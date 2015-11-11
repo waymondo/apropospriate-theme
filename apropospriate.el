@@ -490,6 +490,15 @@
               (erb-comment-face :background ,base00+1 :foreground ,base02)
               (erb-comment-delim-face :background ,base00+1 :foreground ,base01)
 
+              (web-mode-error-face :inherit error)
+              (web-mode-symbol-face :inherit font-lock-constant-face)
+              (web-mode-doctype-face :inherit font-lock-comment-face)
+              (web-mode-html-tag-face :inherit font-lock-function-name-face)
+              (web-mode-html-tag-bracket-face :foreground ,purple)
+              (web-mode-html-attr-name-face :inherit font-lock-variable-name-face)
+              (web-mode-current-element-highlight-face :inherit highlight-symbol-face)
+              (web-mode-current-column-highlight-face :inherit hl-line)
+
               (pulse-highlight-face :background ,pink)
               (pulse-highlight-start-face :background ,pink)
 
