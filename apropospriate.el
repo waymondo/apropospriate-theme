@@ -42,8 +42,8 @@
          (orange-1 (if (eq variant 'light) "#FF5722" "#FFA726"))
          (red      (if (eq variant 'light) "#D50000" "#E57373"))
          (red-1    (if (eq variant 'light) "#FF1744" "#EF9A9A"))
-         (pink     (if (eq variant 'light) "#F8BBD0" "#F8BBD0"))
-         (pink-1   (if (eq variant 'light) "#EC407A" "#FF80AB"))
+         (pink     (if (eq variant 'light) "#EC407A" "#F8BBD0"))
+         (pink-1   (if (eq variant 'light) "#F8BBD0" "#FF80AB"))
          (purple   (if (eq variant 'light) "#7E57C2" "#E1BEE7"))
          (purple-1 (if (eq variant 'light) "#B388FF" "#9575CD"))
          (blue     (if (eq variant 'light) "#42A5F5" "#64B5F6"))
@@ -77,6 +77,9 @@
          (light-emphasis (if (eq variant 'light) base00+3 base00-3))
          (light-emphasis-1 (if (eq variant 'light) base00+2 base00-2))
          (light-emphasis-2 (if (eq variant 'light) base00+1 base00-1))
+         (flashing-color (if (eq variant 'light)
+                             (color-lighten-name pink 25)
+                           (color-darken-name pink 25)))
          (highlight-line-color (if (eq variant 'light) base00-1 base00+1)))
 
     (apply 'custom-theme-set-faces theme-name
@@ -530,19 +533,9 @@
                                  ,blue
                                  ,purple
                                  ,orange))
-
+     `(beacon-color ,flashing-color)
      `(highlight-tail-colors
-       (if (eq ',variant 'light)
-           '((,orange-1 . 0)
-             (,yellow . 10)
-             (,yellow-1 . 30)
-             (,base00+1 . 60)
-             (,base00 . 80))
-         '((,pink . 0)
-           (,pink-1 . 10)
-           (,purple-1 . 30)
-           (,base00+1 . 60)
-           (,base00 . 80))))
+       '((,flashing-color . 0) (,base00 . 100)))
 
      `(tabbar-background-color ,base00-2)
 
