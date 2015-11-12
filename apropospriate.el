@@ -506,7 +506,7 @@
               (eshell-ls-archive :foreground ,teal :weight bold)
               (eshell-ls-backup :inherit font-lock-comment-face)
               (eshell-ls-clutter :inherit font-lock-comment-face)
-              (eshell-ls-directory :foreground ,blue :weight bold)
+              (eshell-ls-directory :foreground ,brown :weight bold)
               (eshell-ls-executable :foreground ,red :weight bold)
               (eshell-ls-unreadable :inherit font-lock-comment-face)
               (eshell-ls-missing :inherit font-lock-warning-face)
