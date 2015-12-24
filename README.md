@@ -37,10 +37,11 @@ Once installed, load either theme variant with `M-x load-theme` or in your confi
 
 ``` elisp
 (use-package apropospriate
-  :config (load-theme 'apropospriate-dark t))
-;; or
-(use-package apropospriate
-  :config (load-theme 'apropospriate-light t))
+  :ensure t
+  :config 
+  (load-theme 'apropospriate-dark t)
+  ;; or
+  (load-theme 'apropospriate-light t))
 ```
 
 ### Supported Packages ###
@@ -48,21 +49,31 @@ Once installed, load either theme variant with `M-x load-theme` or in your confi
 Apropospriate supports all the usual `prog-mode` derived packages as well as some fun extra stuff:
 
 * Company Mode
-* Magit (as well as the `next` branch for the upcoming 2.0 release)
+* Magit 1.x & 2.x
 * Powerline
 * Rainbow Delimiters
 * Highlight Blocks Mode
 * Highlight Tail Mode
+* Beacon
 * Flycheck
 * Auto Dim Other Buffers
-* Ace Jump Mode, Ace Jump Window, Ace Jump Buffer
+* Ace Jump Mode
+* Ace Jump Window
+* Ace Jump Buffer
 * Swoop & Helm Swoop
 * Highlight Symbol Mode
-* Git Gutter & Diff Hl Modes
+* Git Gutter
+* Diff Hl (looks best with `diff-hl-margin-mode`)
 * Pulse
 * Popup & Pos Tip
 * Evil
 * Tabbar
 * Org Mode
 * Guide Key
+* Which Key
 * Visible Mark
+* ERC
+* ORG
+* Aznu
+* Wgrep
+* Eshell
