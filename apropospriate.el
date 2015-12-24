@@ -513,7 +513,27 @@
               (eshell-ls-missing :inherit font-lock-warning-face)
               (eshell-ls-product :inherit font-lock-doc-face)
               (eshell-ls-special :foreground ,orange :weight bold)
-              (eshell-ls-symlink :foreground ,purple :weight bold))))
+              (eshell-ls-symlink :foreground ,purple :weight bold)
+
+              (erc-action-face :inherit erc-default-face)
+              (erc-bold-face :weight bold)
+              (erc-current-nick-face :foreground ,blue :weight bold)
+              (erc-dangerous-host-face :inherit font-lock-warning-face)
+              (erc-default-face :foreground ,base03)
+              (erc-direct-msg-face :inherit erc-default)
+              (erc-error-face :inherit font-lock-warning-face)
+              (erc-fool-face :inherit erc-default)
+              (erc-highlight-face :inherit hover-highlight)
+              (erc-input-face :foreground ,yellow)
+              (erc-keyword-face :foreground ,blue :weight bold)
+              (erc-nick-default-face :foreground ,yellow :weight bold)
+              (erc-my-nick-face :foreground ,red :weight bold)
+              (erc-nick-msg-face :inherit erc-default)
+              (erc-notice-face :foreground ,green)
+              (erc-pal-face :foreground ,orange :weight bold)
+              (erc-prompt-face :foreground ,orange :background ,base00 :weight bold)
+              (erc-timestamp-face :foreground ,green)
+              (erc-underline-face :underline t))))
 
     (custom-theme-set-variables theme-name
 
