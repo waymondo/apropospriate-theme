@@ -136,9 +136,9 @@
               (font-lock-warning-face :foreground ,red)
 
               (mode-line :box (:line-width 4 :color ,light-emphasis :style nil)
-                         :height 0.9 :background ,base00-2 :foreground ,base03)
+                         :background ,base00-2 :foreground ,base03)
               (mode-line-inactive :box (:line-width 4 :color ,base00+1 :style nil)
-                                  :height 0.9 :background ,base00+1 :foreground ,base02)
+                                  :background ,base00+1 :foreground ,base02)
 
               (mode-line-buffer-id :foreground unspecified :background nil)
               (mode-line-emphasis :foreground ,base02 :slant italic)
@@ -151,6 +151,17 @@
               (anzu-mode-line :foreground ,yellow)
               (persp-selected-face :foreground ,base03)
               (mm-command-output :foreground unspecified :background unspecified)
+
+              (spaceline-highlight-face :background ,light-emphasis :foreground ,base03)
+              (spaceline-evil-normal :background ,yellow :foreground ,base00)
+              (spaceline-evil-insert :background ,red :foreground ,base00)
+              (spaceline-evil-emacs :background ,cyan-1 :foreground ,base00)
+              (spaceline-evil-replace :background ,brown :foreground ,base00)
+              (spaceline-evil-visual :background ,green :foreground ,base00)
+              (spaceline-evil-motion :background ,purple :foreground ,base00)
+              (spaceline-unmodified :background ,orange-1 :foreground ,base00)
+              (spaceline-modified :background ,cyan-1 :foreground ,base00)
+              (spaceline-read-only :background ,purple :foreground ,base00)
 
               (match :foreground ,yellow :background ,base00+1 :inverse-video t :weight bold)
               (isearch :inherit match)
@@ -541,30 +552,30 @@
 
     (custom-theme-set-variables theme-name
 
-     `(evil-emacs-state-cursor '(,red bar))
-     `(evil-insert-state-cursor '(,red hbar))
-     `(evil-normal-state-cursor '(,yellow box))
-     `(evil-visual-state-cursor '(,green box))
-     `(pos-tip-foreground-color ,base02)
-     `(pos-tip-background-color ,base00-1)
+                                `(evil-emacs-state-cursor '(,red bar))
+                                `(evil-insert-state-cursor '(,red hbar))
+                                `(evil-normal-state-cursor '(,yellow box))
+                                `(evil-visual-state-cursor '(,green box))
+                                `(pos-tip-foreground-color ,base02)
+                                `(pos-tip-background-color ,base00-1)
 
-     `(highlight-symbol-foreground-color ,base03)
-     `(highlight-symbol-colors '(,yellow
-                                 ,green
-                                 ,cyan
-                                 ,blue
-                                 ,purple
-                                 ,orange))
-     `(beacon-color ,flashing-color)
-     `(highlight-tail-colors
-       '((,flashing-color . 0) (,base00 . 100)))
+                                `(highlight-symbol-foreground-color ,base03)
+                                `(highlight-symbol-colors '(,yellow
+                                                            ,green
+                                                            ,cyan
+                                                            ,blue
+                                                            ,purple
+                                                            ,orange))
+                                `(beacon-color ,flashing-color)
+                                `(highlight-tail-colors
+                                  '((,flashing-color . 0) (,base00 . 100)))
 
-     `(tabbar-background-color ,base00-2)
+                                `(tabbar-background-color ,base00-2)
 
-     `(ansi-color-names-vector
-       [,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03])
-     `(ansi-term-color-vector
-       [unspecified ,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03]))))
+                                `(ansi-color-names-vector
+                                  [,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03])
+                                `(ansi-term-color-vector
+                                  [unspecified ,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03]))))
 
 ;;;###autoload
 (and load-file-name

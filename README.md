@@ -51,6 +51,7 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Company Mode
 * Magit 1.x & 2.x
 * Powerline
+* Spaceline
 * Rainbow Delimiters
 * Highlight Blocks Mode
 * Highlight Tail Mode
