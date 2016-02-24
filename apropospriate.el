@@ -426,7 +426,7 @@
               (ediff-even-diff-B :background ,base00+2)
               (ediff-even-diff-C :background ,base00+2)
               (ediff-fine-diff-A :foreground ,base03 :background ,red-1 :weight bold)
-              (ediff-fine-diff-Ancestor :foreground ,base03 :background ,red-1 weight bold)
+              (ediff-fine-diff-Ancestor :foreground ,base03 :background ,red-1 :weight bold)
               (ediff-fine-diff-B :foreground ,base03 :background ,green-1 :weight bold)
               (ediff-fine-diff-C :foreground ,base03 :background ,blue-1 :weight bold )
               (ediff-odd-diff-A :background ,base01)
