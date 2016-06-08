@@ -160,7 +160,7 @@
      `(spaceline-unmodified ((,class (:background ,orange-1 :foreground ,base00))))
      `(spaceline-modified ((,class (:background ,cyan-1 :foreground ,base00))))
      `(spaceline-read-only ((,class (:background ,purple :foreground ,base00))))
-     `(match ((,class (:foreground ,yellow :background ,base00+1 :inverse-video t :weight bold))))
+     `(match ((,class (:foreground ,yellow :background ,base00+1 :weight bold))))
      `(isearch ((,class (:inherit match))))
      `(query-replace ((,class (:inherit isearch))))
      `(anzu-replace-to ((,class (:foreground ,yellow :background ,base00+1))))
