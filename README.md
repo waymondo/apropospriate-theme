@@ -36,7 +36,7 @@ Once installed, load either theme variant with `M-x load-theme` or in your confi
 [`use-package`](https://github.com/jwiegley/use-package) style:
 
 ``` elisp
-(use-package apropospriate
+(use-package apropospriate-theme
   :ensure t
   :config 
   (load-theme 'apropospriate-dark t)
