@@ -512,7 +512,11 @@
      `(erc-pal-face ((,class (:foreground ,orange))))
      `(erc-prompt-face ((,class (:foreground ,orange :background ,base00 :weight bold))))
      `(erc-timestamp-face ((,class (:foreground ,green))))
-     `(erc-underline-face ((,class (:underline t)))))
+     `(erc-underline-face ((,class (:underline t))))
+     `(bm-face ((,class (:inherit secondary-selection))))
+     `(bm-persistent-face ((,class (:inherit secondary-selection))))
+     `(bm-fringe-face ((,class (:inherit fringe))))
+     `(bm-fringe-persistent-face ((,class (:inherit fringe)))))
 
     (custom-theme-set-variables
      theme-name
