@@ -517,7 +517,12 @@
      `(bm-face ((,class (:inherit secondary-selection))))
      `(bm-persistent-face ((,class (:inherit secondary-selection))))
      `(bm-fringe-face ((,class (:inherit fringe))))
-     `(bm-fringe-persistent-face ((,class (:inherit fringe)))))
+     `(bm-fringe-persistent-face ((,class (:inherit fringe))))
+     `(neo-dir-link-face ((,class (:inherit ido-subdir))))
+     `(neo-expand-btn-face ((,class (:foreground ,base02))))
+     `(neo-header-face ((,class (:inherit header-line))))
+     `(neo-file-link-face ((,class (:foreground ,base03))))
+     `(neo-root-dir-face ((,class (:foregroud ,base02)))))
 
     (custom-theme-set-variables
      theme-name
