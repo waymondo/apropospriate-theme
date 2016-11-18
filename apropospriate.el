@@ -521,8 +521,8 @@
 
     (custom-theme-set-variables
      theme-name
-     `(evil-emacs-state-cursor '(,red bar))
-     `(evil-insert-state-cursor '(,red hbar))
+     `(evil-emacs-state-cursor '(,red hbar))
+     `(evil-insert-state-cursor '(,red bar))
      `(evil-normal-state-cursor '(,yellow box))
      `(evil-visual-state-cursor '(,green box))
      `(pos-tip-foreground-color ,base02)
