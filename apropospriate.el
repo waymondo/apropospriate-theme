@@ -27,6 +27,16 @@
 
 (require 'color)
 
+(defgroup apropospriate nil
+  "Apropospriate theme options."
+  :group 'faces)
+
+(defcustom apropospriate-mode-line-height 0.95
+  "The proportional font size of the mode-line in the apropospriate theme.
+Set to `1.0' to prevent font size manipulation."
+  :type 'number
+  :group 'solarized)
+
 (defmacro apropospriate-with-color-variables (variant &rest body)
   (declare (indent 0))
   `(let* ((class '((class color) (min-colors 89)))
@@ -137,15 +147,17 @@
      `(font-lock-type-face ((,class (:foreground ,orange))))
      `(font-lock-variable-name-face ((,class (:foreground ,teal))))
      `(font-lock-warning-face ((,class (:foreground ,red))))
-     `(mode-line ((,class (:box (:line-width 4 :color ,light-emphasis :style nil) :background ,base00-2 :foreground ,base03 :height 0.95))))
-     `(mode-line-inactive ((,class (:box (:line-width 4 :color ,base00+1 :style nil) :background ,base00+1 :foreground ,base02 :height 0.95))))
+     `(mode-line ((,class (:box (:line-width 4 :color ,light-emphasis :style nil)
+                                :background ,base00-2 :foreground ,base03 :height ,apropospriate-mode-line-height))))
+     `(mode-line-inactive ((,class (:box (:line-width 4 :color ,base00+1 :style nil)
+                                         :background ,base00+1 :foreground ,base02 :height ,apropospriate-mode-line-height))))
      `(mode-line-buffer-id ((,class (:foreground unspecified :background nil))))
      `(mode-line-emphasis ((,class (:foreground ,base02 :slant italic))))
      `(mode-line-highlight ((,class (:foreground ,base02 :box nil))))
-     `(powerline-active1 ((,class (:background ,base00 :height 0.95))))
-     `(powerline-active2 ((,class (:background ,base00+1 :height 0.95))))
-     `(powerline-inactive1 ((,class (:background ,base00+1 :height 0.95))))
-     `(powerline-inactive2 ((,class (:background ,base00+1 :height 0.95))))
+     `(powerline-active1 ((,class (:background ,base00 :height ,apropospriate-mode-line-height))))
+     `(powerline-active2 ((,class (:background ,base00+1 :height ,apropospriate-mode-line-height))))
+     `(powerline-inactive1 ((,class (:background ,base00+1 :height ,apropospriate-mode-line-height))))
+     `(powerline-inactive2 ((,class (:background ,base00+1 :height ,apropospriate-mode-line-height))))
      `(alert-trivial-face ((,class (:inherit nil :foreground nil :background nil))))
      `(anzu-mode-line ((,class (:foreground ,yellow))))
      `(persp-selected-face ((,class (:foreground ,base03))))
