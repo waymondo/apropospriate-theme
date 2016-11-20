@@ -399,7 +399,7 @@ Set to `1.0' to prevent font size manipulation."
      `(magit-diff-hunk-heading-highlight ((,class (:inherit magit-diff-hunk-heading :background ,base00-1))))
      `(magit-diff-hunk-heading-selection ((,class (:foreground unspecified))))
      `(magit-diff-lines-heading ((,class (:background unspecified))))
-     `(magit-popup-argument ((,class (:foreground ,base02))))
+     `(magit-popup-argument ((,class (:foreground ,orange))))
      `(magit-popup-disabled-argument ((,class (:foreground ,base01))))
      `(magit-item-highlight ((,class (:background ,highlight-line-color))))
      `(git-commit-summary ((,class (:foreground ,base03))))
