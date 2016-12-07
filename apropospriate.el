@@ -509,6 +509,15 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(eshell-ls-product ((,class (:inherit font-lock-doc-face))))
      `(eshell-ls-special ((,class (:foreground ,orange))))
      `(eshell-ls-symlink ((,class (:foreground ,purple))))
+     `(term ((,class (:foreground ,base03))))
+     `(term-color-black ((,class (:foreground ,base03))))
+     `(term-color-red ((,class (:foreground ,red))))
+     `(term-color-green ((,class (:foreground ,green))))
+     `(term-color-yellow ((,class (:foreground ,yellow))))
+     `(term-color-blue ((,class (:foreground ,blue))))
+     `(term-color-magenta ((,class (:foreground ,purple))))
+     `(term-color-cyan ((,class (:foreground ,cyan))))
+     `(term-color-white ((,class (:foreground ,base00))))
      `(erc-action-face ((,class (:inherit erc-default-face))))
      `(erc-bold-face ((,class (:weight bold))))
      `(erc-current-nick-face ((,class (:foreground ,blue :weight bold))))
@@ -558,12 +567,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(highlight-tail-colors
        '((,flashing-color . 0) (,base00 . 100)))
 
-     `(tabbar-background-color ,base00-2)
-
-     `(ansi-color-names-vector
-       [,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03])
-     `(ansi-term-color-vector
-       [unspecified ,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03]))))
+     `(tabbar-background-color ,base00-2))))
 
 ;;;###autoload
 (and load-file-name

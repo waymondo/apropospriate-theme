@@ -1,6 +1,6 @@
 ## Apropospriate Theme ##
 
-A colorful, low-contrast, light & dark theme set for Emacs. It strives to be pleasant, clean, and consistent, with special focus for the current buffer.
+A colorful, low-contrast, light & dark theme set for Emacs 24.3+. It strives to be pleasant, clean, and consistent, with special focus for the current buffer.
 
 This theme started as a Frakenstein mash-up of `base16-eighties-theme` and `solarized-light` themes which I customized heavily, then completely swapped out the color palette based on Google's [Material color suggestions](http://www.google.com/design/spec/style/color.html#color-color-palette).
 
@@ -61,6 +61,7 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Ace Jump Mode
 * Ace Jump Window
 * Ace Jump Buffer
+* Avy
 * Swoop & Helm Swoop
 * Highlight Symbol Mode
 * Git Gutter
@@ -78,4 +79,5 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Aznu
 * Wgrep
 * Eshell
+* Ansi-Term
 * Neotree
