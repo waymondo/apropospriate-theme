@@ -567,7 +567,9 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(highlight-tail-colors
        '((,flashing-color . 0) (,base00 . 100)))
 
-     `(tabbar-background-color ,base00-2))))
+     `(tabbar-background-color ,base00-2)
+     `(ansi-color-names-vector
+       [,base00 ,red-1 ,green ,yellow ,blue ,purple ,cyan ,base03]))))
 
 ;;;###autoload
 (and load-file-name
