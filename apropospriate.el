@@ -545,7 +545,16 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(neo-expand-btn-face ((,class (:foreground ,base02))))
      `(neo-header-face ((,class (:inherit header-line))))
      `(neo-file-link-face ((,class (:foreground ,base03))))
-     `(neo-root-dir-face ((,class (:foregroud ,base02)))))
+     `(neo-root-dir-face ((,class (:foregroud ,base02))))
+     `(org-ellipsis ((,class (:inherit font-lock-keyword-face))))
+     `(org-level-1 ((,class (:inherit header-line :height 1.3))))
+     `(org-level-2 ((,class (:inherit header-line :height 1.2))))
+     `(org-level-3 ((,class (:inherit header-line :height 1.1))))
+     `(org-level-4 ((,class (:inherit header-line))))
+     `(org-level-5 ((,class (:inherit header-line))))
+     `(org-level-6 ((,class (:inherit header-line))))
+     `(org-level-7 ((,class (:inherit header-line))))
+     `(org-level-8 ((,class (:inherit header-line)))))
 
     (custom-theme-set-variables
      theme-name
