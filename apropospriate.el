@@ -343,6 +343,8 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(undo-tree-visualizer-current-face ((,class (:foreground ,green :weight bold))))
      `(undo-tree-visualizer-active-branch-face ((,class (:foreground ,red))))
      `(undo-tree-visualizer-register-face ((,class (:foreground ,yellow))))
+     `(erm-syn-errline ((,class (:box nil :underline (:style wave :color ,red)))))
+     `(erm-syn-warnline ((,class (:box nil :underline (:style wave :color ,orange)))))
      `(dired-directory ((,class (:inherit ido-subdir))))
      `(dired-header ((,class (:inherit header-line))))
      `(diredp-compressed-file-suffix ((,class (:foreground ,blue))))
