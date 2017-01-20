@@ -55,6 +55,7 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Rainbow Delimiters
 * Highlight Blocks Mode
 * Highlight Tail Mode
+* Highlight Indent Guides Mode
 * Beacon
 * Flycheck
 * Auto Dim Other Buffers
