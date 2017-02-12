@@ -68,6 +68,8 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Git Gutter
 * Diff Hl (looks best with `diff-hl-margin-mode`)
 * Pulse
+* Helm
+* Helm CSS SCSS
 * Popup & Pos Tip
 * Evil
 * Tabbar
