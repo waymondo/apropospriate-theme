@@ -558,7 +558,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(neo-expand-btn-face ((,class (:foreground ,base02))))
      `(neo-header-face ((,class (:inherit header-line))))
      `(neo-file-link-face ((,class (:foreground ,base03))))
-     `(neo-root-dir-face ((,class (:foregroud ,base02))))
+     `(neo-root-dir-face ((,class (:foreground ,base02))))
      `(org-ellipsis ((,class (:inherit font-lock-keyword-face))))
      `(org-level-1 ((,class (:inherit header-line :height 1.3))))
      `(org-level-2 ((,class (:inherit header-line :height 1.2))))
@@ -567,7 +567,12 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(org-level-5 ((,class (:inherit header-line))))
      `(org-level-6 ((,class (:inherit header-line))))
      `(org-level-7 ((,class (:inherit header-line))))
-     `(org-level-8 ((,class (:inherit header-line)))))
+     `(org-level-8 ((,class (:inherit header-line))))
+     `(hydra-face-red ((,class (:foreground ,red :bold t))))
+     `(hydra-face-blue ((,class (:foreground ,blue :bold t))))
+     `(hydra-face-amaranth ((,class (:foreground ,red-1 :bold t))))
+     `(hydra-face-pink ((,class (:foreground ,pink :bold t))))
+     `(hydra-face-teal ((,class (:foreground ,cyan :bold t)))))
 
     (custom-theme-set-variables
      theme-name
