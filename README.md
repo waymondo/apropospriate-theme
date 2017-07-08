@@ -1,3 +1,6 @@
+[![MELPA](http://melpa.org/packages/apropospriate-theme-badge.svg)](http://melpa.org/#/apropospriate-theme)
+[![MELPA Stable](http://stable.melpa.org/packages/apropospriate-theme-badge.svg)](http://stable.melpa.org/#/apropospriate-theme)
+
 ## Apropospriate Theme ##
 
 A colorful, low-contrast, light & dark theme set for Emacs 24.3+. It strives to be pleasant, clean, and consistent, with special focus for the current buffer.
