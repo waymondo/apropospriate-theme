@@ -35,7 +35,7 @@
   "The proportional font size of the mode-line in the apropospriate theme.
 Set to `1.0' or nil to prevent font size manipulation."
   :type 'number
-  :group 'solarized)
+  :group 'apropospriate)
 
 (defmacro apropospriate-with-color-variables (variant &rest body)
   (declare (indent 0))
