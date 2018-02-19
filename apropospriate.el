@@ -306,6 +306,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(show-paren-match ((,class (:background unspecified :underline (:style line :color ,pink)))))
      `(show-paren-mismatch ((,class (:background unspecified :foreground ,red :inverse-video t :underline (:style line :color ,red)))))
      `(highlight-symbol-face ((,class (:foreground unspecified :background unspecified :underline (:style line :color ,base02)))))
+     `(symbol-overlay-temp-face ((,class (:foreground unspecified :background unspecified :underline (:style line :color ,base02)))))
      `(sp-show-pair-match-face ((,class (:inherit show-paren-match))))
      `(sp-show-pair-mismatch-face ((,class (:inherit show-paren-mismatch))))
      `(rainbow-delimiters-depth-1-face ((,class (:foreground ,purple-1))))
