@@ -90,3 +90,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Hydra
 * Dired Subtree
 * Symbol Overlay
+* Counsel CSS
