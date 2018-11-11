@@ -93,3 +93,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Counsel CSS
 * Ivy Posframe
 * Smerge
+* Lsp-mode
