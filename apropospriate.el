@@ -196,6 +196,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(ido-indicator ((,class (:foreground ,red :background ,base00+1))))
      `(ido-virtual ((,class (:foreground ,cyan))))
      `(ido-vertical-match-face ((,class (:foreground ,yellow))))
+     `(grizzl-selection-face ((,class (:inherit match))))
      `(ivy-current-match ((,class (:foreground unspecified :background ,light-emphasis))))
      `(ivy-confirm-face ((,class (:foreground ,green))))
      `(ivy-match-required-face ((,class (:foreground ,red))))
