@@ -61,6 +61,8 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Highlight Indent Guides Mode
 * Beacon
 * Flycheck
+* Flycheck Inline
+* Flymake
 * Auto Dim Other Buffers
 * Ace Jump Mode
 * Ace Jump Window
