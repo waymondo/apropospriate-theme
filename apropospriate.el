@@ -276,7 +276,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(flycheck-inline-info ((,class (:foreground ,base03 :background ,base00-1 :inherit unspecified))))
      `(flymake-error ((,class (:underline (:style wave :color ,red) :inherit unspecified))))
      `(flymake-warning ((,class (:underline (:style wave :color ,orange) :inherit unspecified))))
-     `(flymake-note ((,class (:underline (:style wave :color ,green) :inherit unspecified))))
+     `(flymake-note ((,class (:underline nil :inherit unspecified))))
      `(swoop-face-target-words ((,class (:foreground ,yellow))))
      `(swoop-face-target-line ((,class (:background ,base01))))
      `(swoop-face-line-buffer-name ((,class (:inherit header-line :foreground ,base02))))
