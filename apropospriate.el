@@ -116,6 +116,8 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(fringe ((,class (:background ,base00+1 :foreground ,base02))))
      `(linum ((,class (:inherit fringe :foreground ,base01))))
      `(linum-relative-current-face ((,class (:inherit fringe :foreground ,base02))))
+     `(line-number ((,class (:inherit fringe :foreground ,base01))))
+     `(line-number-current-line ((,class (:inherit fringe :foreground ,base02))))
      `(vertical-border ((,class (:foreground ,base00+3))))
      `(widget-button ((,class (:underline t))))
      `(widget-field ((,class (:background ,base02 :box (:line-width 1 :color ,base03)))))
