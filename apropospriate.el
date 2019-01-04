@@ -37,6 +37,12 @@ Set to `1.0' or nil to prevent font size manipulation."
   :type 'number
   :group 'apropospriate)
 
+(defcustom apropospriate-org-level-resizing t
+  "Set to non-nil for `org-level-*' faces to be different larger
+  than the default font height."
+  :type 'boolean
+  :group 'apropospriate)
+
 (defmacro apropospriate-with-color-variables (variant &rest body)
   (declare (indent 0))
   `(let* ((class '((class color) (min-colors 89)))
@@ -610,9 +616,9 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(neo-file-link-face ((,class (:foreground ,base03))))
      `(neo-root-dir-face ((,class (:foreground ,base02))))
      `(org-ellipsis ((,class (:inherit font-lock-keyword-face))))
-     `(org-level-1 ((,class (:inherit header-line :height 1.3))))
-     `(org-level-2 ((,class (:inherit header-line :height 1.2))))
-     `(org-level-3 ((,class (:inherit header-line :height 1.1))))
+     `(org-level-1 ((,class (:inherit header-line :height ,(if apropospriate-org-level-resizing 1.3 1.0)))))
+     `(org-level-2 ((,class (:inherit header-line :height ,(if apropospriate-org-level-resizing 1.2 1.0)))))
+     `(org-level-3 ((,class (:inherit header-line :height ,(if apropospriate-org-level-resizing 1.1 1.0)))))
      `(org-level-4 ((,class (:inherit header-line))))
      `(org-level-5 ((,class (:inherit header-line))))
      `(org-level-6 ((,class (:inherit header-line))))
