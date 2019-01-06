@@ -622,7 +622,16 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(hydra-face-blue ((,class (:foreground ,blue :bold t))))
      `(hydra-face-amaranth ((,class (:foreground ,red-1 :bold t))))
      `(hydra-face-pink ((,class (:foreground ,pink :bold t))))
-     `(hydra-face-teal ((,class (:foreground ,cyan :bold t)))))
+     `(hydra-face-teal ((,class (:foreground ,cyan :bold t))))
+     `(hi-yellow ((,class (:inherit highlight :foreground ,yellow :inverse-video t))))
+     `(hi-pink ((,class (:inherit highlight :foreground ,pink :inverse-video t))))
+     `(hi-green ((,class (:inherit highlight :foreground ,green :inverse-video t))))
+     `(hi-blue ((,class (:inherit highlight :foreground ,blue :inverse-video t))))
+     `(hi-black-b ((,class (:inherit highlight :foreground ,light-emphasis :inverse-video t :bold t))))
+     `(hi-blue-b ((,class (:inherit hi-blue :bold t))))
+     `(hi-green-b ((,class (:inherit hi-green :bold t))))
+     `(hi-red-b ((,class (:inherit highlight :foreground ,red :inverse-video t :bold t))))
+     `(hi-black-hb ((,class (:inherit hi-black-b :height 1.2)))))
 
     (custom-theme-set-variables
      theme-name
