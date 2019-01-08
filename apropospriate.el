@@ -616,6 +616,8 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(neo-file-link-face ((,class (:foreground ,base03))))
      `(neo-root-dir-face ((,class (:foreground ,base02))))
      `(org-ellipsis ((,class (:inherit font-lock-keyword-face))))
+     `(flyspell-incorrect ((,class (:underline (:style wave :color ,red)))))
+     `(flyspell-duplicate ((,class (:underline (:style wave :color ,orange)))))
      `(org-level-1 ((,class (:inherit header-line :height ,(if apropospriate-org-level-resizing 1.3 1.0)))))
      `(org-level-2 ((,class (:inherit header-line :height ,(if apropospriate-org-level-resizing 1.2 1.0)))))
      `(org-level-3 ((,class (:inherit header-line :height ,(if apropospriate-org-level-resizing 1.1 1.0)))))

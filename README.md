@@ -98,3 +98,6 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Lsp-mode
 * Lsp-UI-mode
 * Grizzl
+* Hi-Lock
+* Flyspell
+* Display Numbers Line Mode
