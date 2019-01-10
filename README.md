@@ -101,3 +101,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Hi-Lock
 * Flyspell
 * Display Numbers Line Mode
+* Visual-Regexp
