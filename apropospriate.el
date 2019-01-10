@@ -639,7 +639,13 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(hi-blue-b ((,class (:inherit hi-blue :bold t))))
      `(hi-green-b ((,class (:inherit hi-green :bold t))))
      `(hi-red-b ((,class (:inherit highlight :foreground ,red :inverse-video t :bold t))))
-     `(hi-black-hb ((,class (:inherit hi-black-b :height 1.2)))))
+     `(hi-black-hb ((,class (:inherit hi-black-b :height 1.2))))
+     `(vr/match-0 ((,class (:background ,teal))))
+     `(vr/match-1 ((,class (:background ,teal-1))))
+     `(vr/group-0 ((,class (:background ,blue))))
+     `(vr/group-1 ((,class (:background ,indigo))))
+     `(vr/group-2 ((,class (:background ,purple))))
+     `(vr/match-separator-face ((,class (:foreground ,red :bold t)))))
 
     (custom-theme-set-variables
      theme-name
