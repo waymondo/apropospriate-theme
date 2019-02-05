@@ -266,7 +266,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(company-preview-common ((,class (:foreground ,base02))))
      `(company-preview-search ((,class (:background ,base00))))
      `(ac-completion-face ((,class :inherit company-preview)))
-     `(tooltip ((,class (:background ,base03 :foreground ,base00 :height 0.9))))
+     `(tooltip ((,class (:background ,base00-1 :foreground ,base03))))
      `(popup-tip-face ((,class (:inherit tooltip))))
      `(popup-face ((,class (:inherit company-tooltip))))
      `(popup-menu-mouse-face ((,class (:inherit popup-face))))
