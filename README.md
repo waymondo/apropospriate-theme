@@ -102,3 +102,5 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Flyspell
 * Display Numbers Line Mode
 * Visual-Regexp
+* Solaire
+* Frog Menu
