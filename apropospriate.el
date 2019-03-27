@@ -636,7 +636,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(hydra-face-red ((,class (:foreground ,red :bold t))))
      `(hydra-face-blue ((,class (:foreground ,blue :bold t))))
      `(hydra-face-amaranth ((,class (:foreground ,red-1 :bold t))))
-     `(hydra-face-pink ((,class (:foreground ,pink :bold t))))
+     `(hydra-face-pink ((,class (:foreground ,pink-1 :bold t))))
      `(hydra-face-teal ((,class (:foreground ,cyan :bold t))))
      `(hi-yellow ((,class (:inherit highlight :foreground ,yellow :inverse-video t))))
      `(hi-pink ((,class (:inherit highlight :foreground ,pink :inverse-video t))))
