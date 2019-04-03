@@ -104,3 +104,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Visual-Regexp
 * Solaire
 * Frog Menu
+* Which Key Posframe
