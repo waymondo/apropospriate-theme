@@ -260,6 +260,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(frog-menu-actions-face ((,class :foreground ,base03-1)))
      `(frog-menu-posframe-background-face ((,class :background ,base00-2)))
      `(frog-menu-action-keybinding-face ((,class :inherit avy-lead-face)))
+     `(ivy-posframe-border ((,class :background ,base00-2)))
      `(solaire-default-face ((,class :background ,base00-1)))
      `(solaire-line-number-face ((,class :background ,base00-2)))
      `(company-tooltip ((,class (:background ,base00-2 :foreground ,base02))))
