@@ -59,6 +59,7 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Highlight Blocks Mode
 * Highlight Tail Mode
 * Highlight Indent Guides Mode
+* Highlight Indentation Mode
 * Beacon
 * Flycheck
 * Flycheck Inline

@@ -141,6 +141,8 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(avy-background-face ((,class (:foreground ,base00+3))))
      `(aw-leading-char-face ((,class (:inherit avy-lead-face :height 2.0))))
      `(aw-background-face ((,class (:inherit avy-background-face))))
+     `(highlight-indentation-face ((,class (:background ,base00))))
+     `(highlight-indentation-current-column-face ((,class (:background ,base00+1))))
      `(highlight-indent-guides-odd-face ((,class (:background ,base00+1))))
      `(highlight-indent-guides-even-face ((,class (:background ,base00))))
      `(highlight-indent-guides-character-face ((,class (:foreground ,base00+2))))
