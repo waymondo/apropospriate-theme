@@ -258,6 +258,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(lsp-face-highlight-write ((,class (:inherit highlight-symbol-face :background ,base00+2))))
      `(ivy-posframe ((,class :background ,base00-2 :foreground ,base03)))
      `(which-key-posframe ((,class :background ,base00-2 :foreground ,base03)))
+     `(which-key-posframe-border ((,class :background ,base00-2)))
      `(frog-menu-prompt-face ((,class :foreground ,base03-1)))
      `(frog-menu-actions-face ((,class :foreground ,base03-1)))
      `(frog-menu-posframe-background-face ((,class :background ,base00-2)))
