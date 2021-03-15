@@ -107,3 +107,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Frog Menu
 * Which Key Posframe
 * Company Posframe
+* Goggles
