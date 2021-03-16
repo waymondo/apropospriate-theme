@@ -667,6 +667,7 @@ Set to `1.0' or nil to prevent font size manipulation."
 
     (custom-theme-set-variables
      theme-name
+     `(diff-hl-show-hunk-posframe-internal-border-color ,base00-2)
      `(evil-emacs-state-cursor '(,red hbar))
      `(evil-insert-state-cursor '(,red bar))
      `(evil-normal-state-cursor '(,yellow box))
