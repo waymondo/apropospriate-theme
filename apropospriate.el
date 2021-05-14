@@ -681,6 +681,8 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(evil-visual-state-cursor '(,green box))
      `(pos-tip-foreground-color ,base02)
      `(pos-tip-background-color ,base00-1)
+     `(mlscroll-in-color ,base00+2)
+     `(mlscroll-out-color ,base00)
      `(highlight-indent-guides-auto-enabled nil)
      `(highlight-symbol-foreground-color ,base03)
      `(highlight-symbol-colors '(,yellow
