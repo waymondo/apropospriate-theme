@@ -4,7 +4,7 @@
 
 ;; Author: Justin Talbott <justin@waymondo.com>
 ;; URL: http://github.com/waymondo/apropospriate-theme
-;; Version: 0.1.0
+;; Version: 0.1.1
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -120,7 +120,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(secondary-selection ((,class (:background ,base00-1))))
      `(header-line ((,class (:foreground ,purple :background nil))))
      `(auto-dim-other-buffers-face ((,class (:background ,base00+1))))
-     `(fringe ((,class (:background ,base00+1 :foreground ,base02))))
+     `(fringe ((,class (:background ,base00 :foreground ,base02))))
      `(linum ((,class (:inherit fringe :foreground ,base01))))
      `(linum-relative-current-face ((,class (:inherit fringe :foreground ,base02))))
      `(line-number ((,class (:inherit fringe :foreground ,base01))))
@@ -473,20 +473,20 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(magit-diff-added ((,class (:foreground ,green :background unspecified))))
      `(magit-diff-removed ((,class (:foreground ,red :background unspecified))))
      `(magit-diff-context ((,class (:foreground unspecified :background unspecified))))
-     `(diff-refine-added ((,class (:foreground ,green :weight bold :background ,base00+1))))
-     `(diff-refine-changed ((,class (:foreground ,green :weight bold :background ,base00+1))))
-     `(diff-refine-removed ((,class (:foreground ,red :weight bold :background ,base00+1))))
-     `(magit-diff-added-highlight ((,class (:foreground ,green :background ,base00-1))))
-     `(magit-diff-removed-highlight ((,class (:foreground ,red :background ,base00-1))))
-     `(magit-diff-context-highlight ((,class (:foreground unspecified :background ,base00-1))))
+     `(diff-refine-added ((,class (:foreground ,green :weight bold :background ,base00-1))))
+     `(diff-refine-changed ((,class (:foreground ,green :weight bold :background ,base00-1))))
+     `(diff-refine-removed ((,class (:foreground ,red :weight bold :background ,base00-1))))
+     `(magit-diff-added-highlight ((,class (:foreground ,green :background ,base00-2))))
+     `(magit-diff-removed-highlight ((,class (:foreground ,red :background ,base00-2))))
+     `(magit-diff-context-highlight ((,class (:foreground unspecified :background ,base00-2))))
      `(magit-diffstat-added ((,class (:foreground ,green :background unspecified))))
      `(magit-diffstat-removed ((,class (:foreground ,red :background unspecified))))
      `(magit-cherry-unmatched ((,class (:foreground ,cyan))))
      `(magit-cherry-equivalent ((,class (:foreground ,purple))))
      `(magit-blame-heading ((,class (:foreground unspecified :background unspecified))))
      `(magit-diff-hunk-heading ((,class (:foreground ,base01))))
-     `(magit-diff-hunk-heading-highlight ((,class (:inherit magit-diff-hunk-heading :background ,base00-1))))
-     `(magit-diff-hunk-heading-selection ((,class (:foreground unspecified))))
+     `(magit-diff-hunk-heading-highlight ((,class (:inherit magit-diff-hunk-heading :background ,base00-2))))
+     `(magit-diff-hunk-heading-selection ((,class (:foreground unspecified :background ,base00-2))))
      `(magit-diff-lines-heading ((,class (:background unspecified))))
      `(magit-popup-argument ((,class (:foreground ,orange))))
      `(magit-popup-disabled-argument ((,class (:foreground ,base01))))
