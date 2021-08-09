@@ -113,3 +113,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Vertico
 * Ediff
 * Mlscroll
+* Vertico Quick

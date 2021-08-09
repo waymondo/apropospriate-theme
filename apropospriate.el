@@ -138,6 +138,8 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(avy-lead-face-0 ((,class (:inherit avy-lead-face))))
      `(avy-lead-face-1 ((,class (:inherit avy-lead-face))))
      `(avy-lead-face-2 ((,class (:inherit avy-lead-face))))
+     `(vertico-quick1 ((,class (:inherit avy-lead-face))))
+     `(vertico-quick2 ((,class (:inherit avy-lead-face))))
      `(avy-background-face ((,class (:foreground ,base00+3))))
      `(aw-leading-char-face ((,class (:inherit avy-lead-face :height 2.0))))
      `(aw-background-face ((,class (:inherit avy-background-face))))
