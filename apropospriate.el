@@ -209,7 +209,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(ido-indicator ((,class (:foreground ,red :background ,base00+1))))
      `(ido-virtual ((,class (:foreground ,cyan))))
      `(ido-vertical-match-face ((,class (:foreground ,yellow))))
-     `(vertico-current ((,class (:background ,base00-2))))
+     `(vertico-current ((,class (:background ,highlight-line-color))))
      `(grizzl-selection-face ((,class (:inherit match))))
      `(orderless-match-face-0 ((,class (:foreground ,blue :background ,base00-1 :weight bold))))
      `(orderless-match-face-1 ((,class (:foreground ,purple :background ,base00-1 :weight bold))))
