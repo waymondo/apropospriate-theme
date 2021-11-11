@@ -116,3 +116,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Vertico Quick
 * Tab-bar
 * Tab-line
+* VC-Annotate
