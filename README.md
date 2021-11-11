@@ -118,4 +118,5 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Tab-line
 * VC-Annotate
 * Window Divider Mode
+* Transient
 * Transient Posframe Mode
