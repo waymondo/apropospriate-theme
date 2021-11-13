@@ -106,6 +106,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      theme-name
      `(default ((,class (:background ,base00 :foreground ,base03))))
      `(bold ((,class (:weight bold))))
+     `(shadow ((,class (:foreground ,base02))))
      `(border ((,class (:background ,base02))))
      `(cursor ((,class (:background ,pink-1 :inverse-video t))))
      `(highlight ((,class (:background ,base00+1))))
