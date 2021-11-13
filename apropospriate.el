@@ -306,6 +306,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(corfu-bar ((,class (:background ,base00+1 :foreground ,base00+3))))
      `(corfu-border ((,class (:background ,base00-1 :foreground ,base03))))
      `(ac-completion-face ((,class :inherit company-preview)))
+     `(popper-echo-area ((,class :foreground ,base03)))
      `(tooltip ((,class (:background ,base00-1 :foreground ,base03))))
      `(popup-tip-face ((,class (:inherit tooltip))))
      `(popup-face ((,class (:inherit company-tooltip))))
