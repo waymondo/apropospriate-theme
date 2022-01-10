@@ -277,6 +277,8 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(transient-disabled-suffix ((,class (:foreground ,red :background ,base00-2))))
      `(transient-posframe ((,class (:background ,base00-2))))
      `(transient-posframe-border ((,class (:background ,base00-2))))
+     `(vertico-posframe ((,class (:background ,base00-2))))
+     `(vertico-posframe-border ((,class (:background ,base00-2))))
      `(ivy-posframe ((,class :background ,base00-2 :foreground ,base03)))
      `(which-key-posframe ((,class :background ,base00-2 :foreground ,base03)))
      `(which-key-posframe-border ((,class :background ,base00-2)))

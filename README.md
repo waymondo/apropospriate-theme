@@ -120,3 +120,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Window Divider Mode
 * Transient
 * Transient Posframe Mode
+* Vertico Posframe Mode
