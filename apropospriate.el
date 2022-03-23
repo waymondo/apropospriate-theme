@@ -448,6 +448,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(undo-tree-visualizer-register-face ((,class (:foreground ,yellow))))
      `(erm-syn-errline ((,class (:box nil :underline (:style wave :color ,red)))))
      `(erm-syn-warnline ((,class (:box nil :underline (:style wave :color ,orange)))))
+     `(dirvish-hl-line ((,class (:background ,highlight-line-color))))
      `(dired-directory ((,class (:foreground ,brown))))
      `(dired-header ((,class (:inherit header-line))))
      `(dired-subtree-depth-1-face ((,class (:background ,base00-1))))

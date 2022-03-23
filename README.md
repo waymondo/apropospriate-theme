@@ -92,6 +92,7 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Neotree
 * Hydra
 * Dired Subtree
+* Dirvish
 * Symbol Overlay
 * Counsel CSS
 * Ivy Posframe
