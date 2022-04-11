@@ -728,7 +728,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(evil-insert-state-cursor '(,red bar))
      `(evil-normal-state-cursor '(,yellow box))
      `(evil-visual-state-cursor '(,green box))
-     `(pos-tip-foreground-color ,base02)
+     `(pos-tip-foreground-color ,base03)
      `(pos-tip-background-color ,base00-1)
      `(mlscroll-in-color ,base00+2)
      `(mlscroll-out-color ,base00)
