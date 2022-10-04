@@ -1,4 +1,4 @@
-(require 'apropospriate)
+(require 'apropospriate-theme)
 
 (deftheme apropospriate-light "The light variant of the Apropospriate color theme")
 
