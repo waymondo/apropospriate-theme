@@ -123,3 +123,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Transient Posframe Mode
 * Vertico Posframe Mode
 * Tempel
+* Inf-Ruby

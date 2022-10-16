@@ -283,6 +283,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(eldoc-box-border ((,class :background ,base00-2)))
      `(solaire-default-face ((,class :background ,base00-1)))
      `(solaire-line-number-face ((,class :background ,base00-2)))
+     `(inf-ruby-result-overlay-face ((,class (:background ,base00-2 :foreground ,base03))))
      `(company-tooltip ((,class (:background ,base00-2 :foreground ,base02))))
      `(company-tooltip-selection ((,class (:background ,base00-1 :foreground ,base03))))
      `(company-tooltip-common ((,class (:inherit company-tooltip))))
