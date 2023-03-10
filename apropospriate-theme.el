@@ -518,6 +518,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(magit-popup-argument ((,class (:foreground ,orange))))
      `(magit-popup-disabled-argument ((,class (:foreground ,base01))))
      `(magit-item-highlight ((,class (:background ,highlight-line-color))))
+     `(blamer-face ((,class (:foreground ,base02))))
      `(git-commit-summary ((,class (:foreground ,base03))))
      `(git-timemachine-minibuffer-detail-face ((,class (:foreground ,orange))))
      `(smerge-markers ((,class (:inherit highlight))))
