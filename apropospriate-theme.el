@@ -268,6 +268,8 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(transient-disabled-suffix ((,class (:foreground ,red :background ,base00-2))))
      `(transient-posframe ((,class (:background ,base00-2))))
      `(transient-posframe-border ((,class (:background ,base00-2))))
+     `(mini-popup-default ((,class (:background ,base00-2))))
+     `(mini-popup-border ((,class (:background ,base00-2))))
      `(shr-code ((,class (:inherit default :background ,base00-1))))
      `(shr-selected-link ((,class (:background ,base00-2))))
      `(vertico-posframe ((,class (:background ,base00-2))))

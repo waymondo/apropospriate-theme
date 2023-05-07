@@ -128,3 +128,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * EWW
 * SHR
 * Blamer
+* Mini Popup
