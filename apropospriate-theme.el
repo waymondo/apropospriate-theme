@@ -141,7 +141,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(highlight-indent-guides-odd-face ((,class (:background ,base00+1))))
      `(highlight-indent-guides-even-face ((,class (:background ,base00))))
      `(highlight-indent-guides-character-face ((,class (:foreground ,base00+2))))
-     `(parenthesis ((,class (:foreground ,base00+3))))
+     `(parenthesis ((,class (:foreground ,base01))))
      `(font-lock-comment-face ((,class (:foreground ,base01))))
      `(font-lock-comment-delimiter-face ((,class (:foreground ,base01))))
      `(font-lock-builtin-face ((,class (:foreground ,cyan))))
