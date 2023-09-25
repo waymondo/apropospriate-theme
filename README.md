@@ -9,11 +9,7 @@ This theme started as a Frakenstein mash-up of `base16-eighties-theme` and `sola
 
 ### Screenshots ###
 
-##### `apropospriate-dark-theme` #####
-
 ![](https://raw.github.com/waymondo/apropospriate-theme/master/dark.png)
-
-##### `apropospriate-light-theme` #####
 
 ![](https://raw.github.com/waymondo/apropospriate-theme/master/light.png)
 
