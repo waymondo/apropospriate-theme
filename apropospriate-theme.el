@@ -107,6 +107,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(header-line ((,class (:foreground ,purple :background nil))))
      `(auto-dim-other-buffers-face ((,class (:background ,base00+1))))
      `(fringe ((,class (:background ,base00 :foreground ,base02))))
+     `(mistty-fringe-face ((,class (:foreground ,base01))))
      `(linum ((,class (:inherit fringe :foreground ,base01))))
      `(linum-relative-current-face ((,class (:inherit fringe :foreground ,base02))))
      `(line-number ((,class (:inherit fringe :foreground ,base01))))
