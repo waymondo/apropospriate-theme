@@ -104,7 +104,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(trailing-whitespace ((,class (:background ,base00+1 :foreground ,yellow))))
      `(next-error ((,class (:background ,base01))))
      `(secondary-selection ((,class (:background ,base00-1))))
-     `(header-line ((,class (:foreground ,purple :background nil))))
+     `(header-line ((,class (:foreground ,purple :background 'unspecified))))
      `(auto-dim-other-buffers-face ((,class (:background ,base00+1))))
      `(fringe ((,class (:background ,base00 :foreground ,base02))))
      `(mistty-fringe-face ((,class (:foreground ,base01))))
