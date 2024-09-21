@@ -126,3 +126,4 @@ Apropospriate supports all the usual `prog-mode` derived packages as well as som
 * Blamer
 * Mini Popup
 * MisTTY
+* Indent Bars Mode
