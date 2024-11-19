@@ -132,6 +132,7 @@ Set to `1.0' or nil to prevent font size manipulation."
      `(avy-lead-face-2 ((,class (:inherit avy-lead-face))))
      `(vertico-quick1 ((,class (:inherit avy-lead-face))))
      `(vertico-quick2 ((,class (:inherit avy-lead-face))))
+     `(completion-preview-exact ((,class (:underline (:style line :color ,pink)))))
      `(corfu-quick1 ((,class (:inherit avy-lead-face))))
      `(corfu-quick2 ((,class (:inherit avy-lead-face))))
      `(avy-background-face ((,class (:foreground ,base00+3))))
