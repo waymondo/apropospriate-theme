@@ -1,4 +1,4 @@
-;;; apropospriate-theme.el --- A light & dark theme set for Emacs.
+;;; apropospriate-theme.el --- A light & dark theme set for Emacs.  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2015 Justin Talbott
 
